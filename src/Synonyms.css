@@ -9,3 +9,7 @@
   padding-right: 7px;
   line-height: 1;
 }
+
+.Synonyms strong {
+  opacity: 0.7;
+}
