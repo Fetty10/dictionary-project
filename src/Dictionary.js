@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Result from "./Result";
-import Photo from "./Photos";
+import Photos from "./Photos";
 import "./Dictionary.css";
 import Photos from "./Photos";
 
@@ -26,6 +26,7 @@ export default function Dictionary(props) {
 
     axios.get(apiUrl).then(handleResponse);
 
+    //https://www.shecodes.io/learn/apis/images
     let imageApiKey = "o74291bedbb48f3c3et5a5a6ad40853a";
     let imageApiUrl = `https://api.shecodes.io/images/v1/search?query=${value}&key=${imageApiKey}`;
 
