@@ -3,7 +3,6 @@ import axios from "axios";
 import Result from "./Result";
 import Photos from "./Photos";
 import "./Dictionary.css";
-import Photos from "./Photos";
 
 export default function Dictionary(props) {
   let [value, setValue] = useState(props.defaultValue);
