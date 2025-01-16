@@ -16,6 +16,8 @@ h1 {
 .App {
   max-width: 960px;
   margin: 0 auto;
+  padding: 30px;
+  background: rgb(236, 244, 248, 0.7);
 }
 
 .App-header {
